@@ -1,0 +1,43 @@
+{
+  "name": "face",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-trans": "./node_modules/.bin/babel ./src -d ./lib",
+    "webpack": "./node_modules/.bin/webpack",
+    "webpackw": "./node_modules/.bin/webpack -w",
+    "lite": "./node_modules/.bin/lite-server"
+  },
+  "dependencies": {   
+    "lite-server": "^2.3.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap-loader": "^2.0.0",
+    "css-loader": "^0.28.1",
+    "file-loader": "^0.11.1",
+    "html-loader": "^0.4.5",
+    "img-loader": "^2.0.0",
+    "style-loader": "^0.17.0",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.4.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "author": "KoshelAlexey",
+  "license": "ISC"
+}
